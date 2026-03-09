@@ -16,7 +16,7 @@
  * Plugin Name:       Featured Image Generator
  * Plugin URI:        https://designilcode.com
  * Description:       Get beautiful photos from free license website like Unsplash or uploads your photo. You can customize images by inserting layers and texts. An export image for ready to use.
- * Version:           1.3.3
+ * Version:           1.3.4
  * Author:            DesignilCode
  * Author URI:        https://www.designilcode.com
  * License:           GPL-2.0+
@@ -41,7 +41,7 @@ function activate_featured_image_generator() {
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-featured-image-generator-deactivator.php
+ * This action iหาs documented in includes/class-featured-image-generator-deactivator.php
  */
 function deactivate_featured_image_generator() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-featured-image-generator-deactivator.php';
